@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jennifer</title>
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="shortcut icon" href="images/jenniferredcrop.jpg" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Birthstone&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body class="padding-10">
+  <header>
+    <img src="images/jenniferredcrop.jpg" alt="image of Jennifer Thomas with red filter" width="250" class="margin-10"
+      id="border-pic">
+    <div class="intro">
+      <h1 class="headings-font" id="title-size">Jennifer Thomas</h1>
+      <p id="tagline-font">A lover of reading, games, puzzle solving, and organization</p>
+    </div>
+  </header>
+  <nav>
+    <ul id="nav-list">
+      <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+      <li class="nav-item"><a class="nav-link" href="skills.html">Skills</a></li>
+      <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+      <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <main class="contactbox">
+    <h2 class="headings-font centered">Contact Me</h2>
+    <div class="contactpage">
+      <div class="row">
+        <div class="column centered">
+          <div id="mailing">
+            <br>
+            <p class="bold">Jennifer Thomas</p>
+            <br>
+            <p>&phone; &nbsp; 301.555.5555</p>
+            <p>&#9993; &nbsp; aspiedesigns@gmail.com</p>
+            <br>
+          </div>
+
+        </div>
+        <!-- <form action="mailto:you@yourdmainhere.com" method="post" enctype="text/plain">
+          FirstName: <input type="text" name="FirstName">
+          Email: <input type="text" name="Email">
+          <input type="submit" name="submit" value="Submit">
+        </form> -->
+        <div class="column contactform">
+          <form method="post" action="mailto:aspiedesigns@gmail.com" enctype="text/plain" name="contact">
+            <label for="contactname">Name</label>
+            <input id="contactname" type="text" name="name">
+            <label for="contactemail">Email</label>
+            <input id="contactemail" type="text" name="email">
+            <label for="contactsubject">Subject</label>
+            <input id="contactsubject" type="text" name="subject">
+            <label for="contactmessage">Message</label>
+            <textarea id="contactmessage" name="message"></textarea>
+            <div class="centered">
+              <input class="contactbutton" type="submit" value="Send Message">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="centered">
+    <p id="centered">
+      Connect with me on
+      <a href="https://www.linkedin.com/in/jennifer-t-4110478/" target="_blank" rel="noopener noreferrer"><img
+          src="images/LI-In-Bug.png" alt="LinkedIn Icon" width="30" id="linkedin-icon"></a>
+    </p>
+    <p> <span id="currentdate">
+      </span></p>
+  </footer>
+  <script src="js/hamburger.js"></script>
+  <script src="js/currentdate.js"></script>
+</body>
+
+</html>

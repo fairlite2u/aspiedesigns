@@ -1,0 +1,170 @@
+* {
+  margin: auto;
+  box-sizing: border-box;
+}
+
+/* Header */
+
+header {
+  background-color: #60495a;
+  color: #94bfbe;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#title-size {
+  font-size: 75px;
+}
+
+.intro {
+  max-width: 500px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.headings-font {
+  font-family: "Birthstone", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+}
+
+#border-pic {
+  border: 8px solid #d3c5cf;
+}
+
+#tagline-font {
+  color: #f4f4f9;
+}
+
+/* Navigation */
+
+#nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #b8dbd9;
+  display: flex;
+}
+
+.nav-item {
+  justify-items: center;
+  /* float: left; */
+}
+
+.nav-link {
+  display: block;
+  color: #141712;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.active {
+  background-color: #d3c5cf;
+  color: #60495a;
+}
+
+/* Change the link color on hover */
+a.nav-link:hover {
+  background-color: #94bfbe;
+  color: #f4f4f9;
+}
+
+/* Body */
+
+body {
+  font-family: "Montserrat", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.padding-10 {
+  padding: 10px;
+}
+
+.margin-10 {
+  margin: 10px;
+}
+
+.spacing-paragraph {
+  margin: 8px 0px;
+}
+
+/* Footer */
+
+footer {
+  padding: 10px;
+  background-color: #94bfbe;
+  color: #2f4550;
+}
+
+.centered {
+  text-align: center;
+}
+
+
+#footer-bold {
+  font-weight: bold;
+}
+
+#linkedin-icon {
+  vertical-align: middle;
+}
+
+
+
+/* Contact Page */
+
+.contactpage {
+  background-color: #94bfbe;
+  border: 2px solid #60495a;
+  padding: 10px;
+  margin: 10px 100px;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactform {
+  margin: 20px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.contactform {
+  padding: 24px;
+  color: #2f4550;
+  border: 2px solid #60495a;
+  background-color: #bedbd9;
+}
+
+#contactname,
+#contactemail,
+#contactsubject,
+#contactmessage {
+  width: 96%;
+  margin: 10px 0;
+  padding: 5px;
+  border-radius: .2rem;
+  border: 2px solid #60495a;
+  resize: vertical;
+  background-color: #f4f4f9;
+}
+
+.contactbutton {
+  border: none;
+  background-color: #60495a;
+  color: #f4f4f9;
+  padding: .75rem 1.5rem;
+  border-radius: .2rem;
+  margin: 1rem 0 0 2%;
+  width: 100%;
+  max-width: 250px;
+}
